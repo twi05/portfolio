@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+
+/* Navbar */
+
+.navbar-nav {
+    font-size: 18px;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.about img {
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.margin3 {
+    margin-top: 5%;
+}
+
+
+/* Progress Bar  */
+
+.progress {
+    height: 30px;
+    border-radius: 50px;
+    transition: all 0.5s ease;
+}
+
+.progress:hover {
+    transform: scale(1.1);
+}
+
+
+/* Card  */
+
+.card {
+    height: 400px;
+    width: 100px;
+    transition: all 0.5s ease;
+}
+
+.card img {
+    margin: auto;
+    height: 150000px;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    box-shadow: 1px 2px 10px black;
+}
+
+.margin {
+    margin: 15% 0;
+}
+
+.margin2 {
+    margin: 100px;
+}
+
+.socialmedia {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-align: center;
+    margin-bottom: 3%;
+    font-family: 'poppins';
+}
+
+.alagfonts {
+    font-family: cursive;
+    color: lightslategrey;
+}
+
+.wrapper .button {
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    /* float: left; */
+    margin: 0 5px;
+    /* background-color: red; */
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease-out;
+    overflow: hidden;
+}
+
+.wrapper .button:nth-child(1):hover .icon {
+    background: #E3106C;
+}
+
+.wrapper .button:nth-child(5):hover .icon {
+    background: #333;
+}
+
+.wrapper .button:nth-child(2):hover .icon {
+    background: #ff0000;
+}
+
+.wrapper .button:nth-child(3):hover .icon {
+    background: #ff0000;
+}
+
+.wrapper .button:nth-child(4):hover .icon {
+    background: #0077b5;
+}
+
+.wrapper .button:hover {
+    width: 200px;
+}
+
+.wrapper .button:hover i {
+    color: #fff;
+    transition: all 0.3s ease-out;
+    background: none;
+}
+
+.wrapper .button .icon {
+    display: inline-block;
+    height: 60px;
+    text-align: center;
+    width: 60px;
+    /* box-sizing: border-box; */
+    border-radius: 50px;
+    line-height: 60px;
+    transition: all 0.3s ease-out;
+}
+
+.wrapper .button .icon i {
+    font-size: 25px;
+    line-height: 60px;
+}
+
+.wrapper .button span {
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 10px;
+    transition: all 0.3s ease-out;
+}
+
+.wrapper .button:nth-child(1):hover span {
+    color: #E3106C;
+}
+
+.wrapper .button:nth-child(5):hover span {
+    color: #333;
+}
+
+.wrapper .button:nth-child(2):hover span {
+    color: #ff0000;
+}
+
+.wrapper .button:nth-child(3):hover span {
+    color: #ff0000;
+}
+
+.wrapper .button:nth-child(4):hover span {
+    color: #0077b5;
+}
